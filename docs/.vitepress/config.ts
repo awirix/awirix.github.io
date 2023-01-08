@@ -46,7 +46,7 @@ export default defineConfig({
                         {
                             text: 'Structure',
                             link: '/guide/extensions/structure'
-                        }
+                        },
                         {
                             text: 'Library',
                             link: '/guide/extensions/library'
