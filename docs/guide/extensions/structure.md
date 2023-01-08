@@ -1,6 +1,6 @@
 # Structure
 
-Since extensions are just a folders with bunch of files, each extensions must contain few specific files in order to be functional.
+Since extensions are just a folders with bunch of files, each extension must contain a few specific files in order to be functional.
 
 ```
 extension
@@ -16,6 +16,8 @@ extension
 Passport contains information about extension's name, description,
 requirements (operating system, external programs) and such.
 
+> JSON schema coming soon...
+
 ## Tester
 
 Tester is a file, that implements just one function
@@ -24,7 +26,7 @@ Tester is a file, that implements just one function
 function test() end
 ```
 
-This function is being run by the CI in order to verify extensions status.
+This function can be run by the CI in order to verify extension's status.
 
 ::: info
 While it's better to include `tester.lua` with some meaningful tests in your
@@ -64,7 +66,7 @@ basic types.
 `Media` is an intermediate object (a lua table, basically) that represents
 a single media.
 
-For example, imagine your extensions has some sort of search function that
+For example, imagine your extension has some sort of search function that
 gets the query and returns found results. Those results are essentially are
 lists of media. Sounds not too complex right?
 
@@ -119,7 +121,7 @@ ctx.progress('Parsing response...')
 ctx.error('Oops!')
 ```
 
-Alright, not let's move to the **steps** themselves
+Alright, now let's move to the **steps** themselves
 
 ### Search
 
