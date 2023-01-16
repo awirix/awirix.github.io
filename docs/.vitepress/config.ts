@@ -52,6 +52,16 @@ export default defineConfig({
                             link: '/guide/extensions/library'
                         }
                     ]
+                },
+                {
+                    text: 'Config',
+                    collapsible: true,
+                    items: [
+                        {
+                            text: 'Fields',
+                            link: '/guide/config/fields'
+                        }
+                    ]
                 }
             ]
         }
