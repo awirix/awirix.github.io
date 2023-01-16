@@ -93,7 +93,7 @@ A small object that represents singular and plural forms of the noun.
 | Field    | Type    | Description   |
 | -------- | ------- | ------------- |
 | singular | string? | Singular form |
-| error    | string? | Plural form   |
+| plural   | string? | Plural form   |
 
 ### Context
 
